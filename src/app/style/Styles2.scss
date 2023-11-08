@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&family=Poppins:wght@400;500&family=Roboto:wght@400;500;700;900&display=swap');
+// navbar style
+nav ul li {
+    font-family:'Poppins', sans-serif;
+    color: rgb(128, 128, 128);
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+// -------------------
+
+.content-text-j {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+.Desk1 {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: gray;
+    margin-top: 10px;
+}
+// -------------
+
+.j-s-a {
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(63, 63, 63);
+}
