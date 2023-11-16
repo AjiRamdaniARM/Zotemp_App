@@ -9,7 +9,7 @@ export default async function SectionHero() {
     return(
         <>
     
-            <div className=" container-lg px-4 flex md:flex-row flex-col justify-center items-center mt-[28%] md:mt-[6%] mx-auto m-5 ">
+            <div className=" container-lg px-4 flex md:flex-row flex-col justify-center items-center mt-[30%] md:mt-[6%] mx-auto m-5 ">
             {
                 data1.map((Data) => (
 
