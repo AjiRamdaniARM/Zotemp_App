@@ -12,6 +12,13 @@ export default function SectionCapcut () {
         <div className="container-lg mt-5">
                 <div className="flex flex-col justify-center items-center md:px-0 px-4 text-center ">
         <h1 className="j-s-a">Template <b className='text-gray-500'>Capcut Video</b></h1>
+        <div className="text-center mb-10">
+                    <span className="inline-block w-1 h-1 rounded-full bg-gray-500 ml-1"></span>
+                    <span className="inline-block w-3 h-1 rounded-full bg-gray-500 ml-1"></span>
+                    <span className="inline-block w-40 h-1 rounded-full bg-gray-500"></span>
+                    <span className="inline-block w-3 h-1 rounded-full bg-gray-500 ml-1"></span>
+                    <span className="inline-block w-1 h-1 rounded-full bg-gray-500 ml-1"></span>
+                </div>
     </div>
     <div className="flex flex-wrap justify-center items-center">
 <div className="col">
@@ -28,7 +35,7 @@ export default function SectionCapcut () {
         </div>
     </div>
 </div>
-
+&nbsp;&nbsp; 
     <div className="col">
     <div className="container mx-auto p-9 m-2 bg-white max-w-sm rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300">
        <video controls>
@@ -43,7 +50,7 @@ export default function SectionCapcut () {
         </div>
     </div>
     </div>
-
+    &nbsp;&nbsp; 
     <div className="col">
     <div className="container mx-auto p-9 m-2 bg-white max-w-sm rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300">
        <video controls>

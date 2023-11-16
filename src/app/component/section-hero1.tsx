@@ -2,14 +2,15 @@ import '../style/Styles2.scss';
 import Image from 'next/image';
 import Icon1 from "../image/icon1.png";
 import Data from "../json/data.json";
+import Elementbg from './element-bg';
 
 
 export default async function SectionHero() {
     const data1 = Data.dataOrang;
     return(
         <>
-    
-            <div className=" container-lg px-4 flex md:flex-row flex-col justify-center items-center mt-[30%] md:mt-[6%] mx-auto m-5 ">
+      <Elementbg  />
+            <div className=" z-10 container-lg px-4 flex md:flex-row flex-col justify-center items-center mt-[30%] md:mt-[6%] mx-auto m-5 ">
             {
                 data1.map((Data) => (
 
