@@ -11,14 +11,14 @@ import React, {Suspense} from "react";
 import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
 
-export default function Home() {
+export default async  function Home() {
   return (
     <>
       <div className="container-2xl  ">
         <SectionHero />
         <SectionAcces />
-        <Suspense  fallback={ <Box sx={{display: 'flex', justifyContent: 'center' ,alignItems: 'center',marginTop: '70px' }}>
-      <CircularProgress />
+        <Suspense fallback={ <Box sx={{display: 'flex', justifyContent: 'center' ,alignItems: 'center',marginTop: '70px' }}>
+      <CircularProgress   />
       </Box>  }>
         <SectionPhAi /> 
         <SectionPpt />

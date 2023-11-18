@@ -8,8 +8,6 @@ export default function Elementbg () {
           {/* gambar daun hijau */}
             <Image src={Daun} className="relative top-[50px] left-[-110px] rotate-90 hidden md:block " alt="elementDaun" width={400}></Image>
             <Image src={Daun} className="relative top-[1px] left-[65em] rotate-[-90deg] hidden md:block 2xl:left-[88em] " alt="elementDaun" width={400}></Image>
-            
             </div>
-     
     )
 }
